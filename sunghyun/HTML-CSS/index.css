@@ -1,0 +1,34 @@
+.container
+{
+    margin: 0 15% 0 15%; 
+}
+
+.drinkList
+{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 3px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.drink 
+{
+    background-image: linear-gradient(to right, red , yellow);
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 1.7;
+}
+.drink:hover 
+{
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+pre {
+    font-family: 'Times New Roman', Times, serif;
+}
